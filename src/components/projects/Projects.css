@@ -4,3 +4,10 @@
 #projects p {
   margin: 1rem 20% 2rem 20%; 
 }
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0rem 3rem;
+  justify-content: space-evenly
+}

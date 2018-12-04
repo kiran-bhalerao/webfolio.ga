@@ -9,7 +9,7 @@ class Showcase extends Component {
         <Navbar />
         <section>
           <div className="row">
-            <div className="col-md-5 col-sm-5">
+            <div className="col-lg-5 ">
               <div className="content d-flex flex-column align-items-center">
                 <div>
                 <h1>
@@ -20,10 +20,10 @@ class Showcase extends Component {
                   I'm Glad that you visited my site where you get to know me and
                   my work.
                 </p>
-                <button className="btn big ui button">Next</button>
+                <button className="btn big ui button mt-4">Next</button>
               </div>
             </div>
-            <div className="col-md-5 col-sm-5" />
+            <div className="col-lg-5" />
           </div>
         </section>
       </div>

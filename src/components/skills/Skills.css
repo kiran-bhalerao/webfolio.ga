@@ -1,0 +1,7 @@
+#skills-section {
+  height: 120vh;
+  background: transparent url('../../static/middle.png') no-repeat;
+  background-size: 100%;
+  background-position: top;
+  margin-top: 4rem;
+}

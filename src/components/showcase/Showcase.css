@@ -4,7 +4,7 @@ body, html {
 }
 
 #showcase {
-  height: 120vh;
+  height: 110vh;
   background: transparent url('../../static/showcase_icon_v2.png') no-repeat;
   background-size: 100%;
   background-position: top;
