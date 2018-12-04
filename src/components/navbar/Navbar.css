@@ -1,0 +1,26 @@
+.navbar-light {
+  background: transparent !important;
+  padding: 20px 30px;
+}
+a {
+  color: white !important;
+}
+.navbar-brand {
+  font-size: 2rem;
+}
+.nav-item {
+  padding: 0px 16px !important;
+}
+.button:hover {
+  background: #ffbb00 !important;
+}
+.button {
+  background: #ffbb00 !important;
+}
+.nav-link p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+.nav-link p:hover {
+  opacity: 1;
+}

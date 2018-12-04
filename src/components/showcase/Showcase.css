@@ -1,0 +1,35 @@
+body, html {
+  height: 100% !important;
+  margin: 0;
+}
+
+#showcase {
+  height: 120vh;
+  background: transparent url('../../static/showcase_icon_v2.png') no-repeat;
+  background-size: 100%;
+  background-position: top;
+}
+.content {
+  margin-top: 7rem;
+}
+.content h1 {
+  font-size: 4rem;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  width: 100%;
+}
+.content p {
+  font-weight: lighter;
+  font-size: 1.4rem;
+  color: white;
+  width: 70%;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+.content button:hover {
+  background: #ffbb00 !important
+}
+.content button {
+  background: #ffbb00 !important;
+  padding: 1rem 5rem !important;
+}

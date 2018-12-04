@@ -1,0 +1,7 @@
+.card-section {
+  padding: 1rem 2rem;
+  background: #fff;
+  filter: drop-shadow(1px 0.6px 6px rgb(228, 228, 228));
+  margin: 1rem 0rem;
+  border-radius: 1rem;
+}
