@@ -5,7 +5,7 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-md navbar-light bg-light">
           <a className="navbar-brand" href="#">
             Webfolio.ga
           </a>
@@ -43,7 +43,7 @@ class Navbar extends Component {
                 </a>
               </li>
               <li className="nav-item btn big ui button">
-                <a className="nav-link" href="#">
+                <a className="nav-link text-dark" href="#">
                   <p>RESUME</p>
                 </a>
               </li>

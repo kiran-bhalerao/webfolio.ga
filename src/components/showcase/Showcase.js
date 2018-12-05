@@ -20,7 +20,7 @@ class Showcase extends Component {
                   I'm Glad that you visited my site where you get to know me and
                   my work.
                 </p>
-                <button className="btn big ui button mt-4">Next</button>
+                <button className="btn big ui button mt-4"><a href="#" className="text-dark">Next</a></button>
               </div>
             </div>
             <div className="col-lg-5" />

@@ -1,9 +1,3 @@
-.projects-tag {
-  font-size: 3rem;
-}
-#projects p {
-  margin: 1rem 20% 2rem 20%; 
-}
 .card-container {
   display: flex;
   flex-direction: row;

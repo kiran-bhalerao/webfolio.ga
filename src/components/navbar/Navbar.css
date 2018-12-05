@@ -19,8 +19,4 @@ a {
 }
 .nav-link p {
   font-size: 1rem;
-  opacity: 0.9;
-}
-.nav-link p:hover {
-  opacity: 1;
 }

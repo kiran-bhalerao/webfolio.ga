@@ -1,0 +1,25 @@
+.skill-card-section {
+  padding: 3rem;
+  background: #fff;
+  filter: drop-shadow(1px 0.6px 4px #e4e4e4d3);
+  margin: 3rem 2rem;
+  border-radius: 1rem;
+  width: 22rem;
+  color: black;
+}
+
+.skill-card-section p {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.skill-card-section button {
+  color: #002fff;
+  background: #D2E5FF;
+  padding: 1rem 4rem 0.8rem 4rem;
+  margin: 1rem 0 0 0 !important;
+  border-radius: 0.5rem !important;
+  border: 0;
+  font-weight: bold;
+  cursor: pointer;
+}

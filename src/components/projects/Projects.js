@@ -3,7 +3,7 @@ import "./Projects.css";
 import ProjectCard from "../project-card/ProjectCard";
 import { Query } from "react-apollo";
 import { GET_DATA } from "./ProjectsQuery";
-import ProjectHeading from "./ProjectHeading";
+import Heading from '../heading/Heading';
 
 /**
  project card container->
@@ -31,6 +31,10 @@ const fontColors = [
   "#00B8D9"
 ];
 
+const subtitle = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quos rem
+cumque illo ullam ratione odit minima vero sequi ipsum. Voluptatum
+reiciendis dolor ab illum fugit aut eligendi rerum quidem..!`;
+
 const Projects = () => (
   <Query query={GET_DATA}>
     {({ loading, error, data }) => {
@@ -38,7 +42,7 @@ const Projects = () => (
       if (error) return `Error! ${error}`;
       console.log(data.repositoryOwner.pinnedRepositories.nodes);
       return (
-        <ProjectHeading>
+        <Heading title="PROJECTS" subtitle={subtitle} id="projects">
           <section className="card-container">
             {data.repositoryOwner.pinnedRepositories.nodes.map((node, i) => (
               <ProjectCard
@@ -48,7 +52,7 @@ const Projects = () => (
               />
             ))}
           </section>
-        </ProjectHeading>
+        </Heading>
       );
     }}
   </Query>
