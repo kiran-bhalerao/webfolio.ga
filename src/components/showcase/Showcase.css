@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   height: 100% !important;
   width: 100% !important;
   margin: 0 !important;
@@ -6,8 +7,8 @@ body, html {
 }
 
 #showcase {
-  height: 100vh;
-  background: transparent url('../../static/showcase_img.png') no-repeat;
+  height: 101vh;
+  background: transparent url("../../static/showcase_img.png") no-repeat;
   background-size: 100%;
   background-position: top;
   margin-bottom: 10vh;
@@ -17,7 +18,7 @@ body, html {
 }
 .content h1 {
   font-size: 4rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: white;
   width: 100%;
 }
@@ -30,7 +31,7 @@ body, html {
   margin-top: 1rem;
 }
 .content button:hover {
-  background: #ffbb00 !important
+  background: #ffbb00 !important;
 }
 .content button {
   background: #ffbb00 !important;
@@ -39,4 +40,23 @@ body, html {
 .col-lg-5 {
   margin: 0 !important;
   padding: 0% !important;
+}
+
+@media screen and (max-width: 600px) {
+  #showcase {
+    /* background: transparent url("../../static/showcase_img.png") no-repeat; */
+    background: linear-gradient(#380092, #ff7db3);
+    background-size: unset;
+    width: 101%;
+  }
+  .content button {
+    background: #ffbb00 !important;
+    padding: 1rem 5rem !important;
+  }
+  .content button .text-dark {
+    color: rgb(255, 255, 255) !important;
+  }
+  .slogun-text {
+    margin-left: 0rem !important;
+  }
 }

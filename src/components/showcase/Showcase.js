@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Showcase.css";
 import Navbar from "../navbar/Navbar";
+import animateScrollTo from "animated-scroll-to";
 
 class Showcase extends Component {
   render() {
@@ -17,11 +18,16 @@ class Showcase extends Component {
                     <br />I AM KIRAN.
                   </h1>
                 </div>
-                <p>
+                <p className="text-center slogun-text">
                   I'm Glad that you visited my site where you get to know me and
                   my work.
                 </p>
-                <button className="btn big ui button mt-4">
+                <button
+                  className="btn big ui button mt-4"
+                  onClick={() =>
+                    animateScrollTo(document.querySelector("#scroll-projects"))
+                  }
+                >
                   <a href="#" className="text-dark">
                     Next
                   </a>
