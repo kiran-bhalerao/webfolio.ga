@@ -61,4 +61,7 @@ html {
   .slogun-text {
     margin-left: 0rem !important;
   }
+  .main-title {
+    text-align: center;
+  }
 }

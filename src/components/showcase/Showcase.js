@@ -13,7 +13,7 @@ class Showcase extends Component {
             <div className="col-lg-5">
               <div className="content d-flex flex-column align-items-center">
                 <div>
-                  <h1>
+                  <h1 className="main-title">
                     HELLO,
                     <br />I AM KIRAN.
                   </h1>
