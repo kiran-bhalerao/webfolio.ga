@@ -12,10 +12,12 @@ a {
   padding: 0px 16px !important;
 }
 .resume-btn:hover {
-  background: #ffbb00 !important;
+  background: #ff9900 !important;
+  opacity: 1;
 }
 .resume-btn {
-  background: #ffbb00 !important;
+  background: #ff9900 !important;
+  opacity: 0.9;
   padding-top: 0.2rem !important;
   padding-bottom: 0rem !important;
   height: 2.8rem !important;
@@ -34,4 +36,9 @@ a {
   font-weight: 400 !important;
   font-family: Ubuntu, Helvetica, Arial, sans-serif;
 }
-
+.resume-btn-text {
+  color: #fff !important;
+}
+.resume-btn-text:hover {
+  color: #fff !important;
+}

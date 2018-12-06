@@ -31,10 +31,12 @@ html {
   margin-top: 1rem;
 }
 .content button:hover {
-  background: #ffbb00 !important;
+  background: #ff9900 !important;
+  opacity: 1;
 }
 .content button {
-  background: #ffbb00 !important;
+  background: #ff9900 !important;
+  opacity: 0.9;
   padding: 1rem 5rem !important;
 }
 .col-lg-5 {
@@ -42,7 +44,7 @@ html {
   padding: 0% !important;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 992px) {
   #showcase {
     /* background: transparent url("../../assets/showcase_img.png") no-repeat; */
     background: linear-gradient(#380092, #ff7db3);
@@ -50,7 +52,7 @@ html {
     width: 101%;
   }
   .content button {
-    background: #ffbb00 !important;
+    background: #ffa600 !important;
     padding: 1rem 5rem !important;
   }
   .content button .text-dark {

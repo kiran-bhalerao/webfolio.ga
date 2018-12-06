@@ -46,8 +46,8 @@ class Navbar extends Component {
                 </button>
               </li>
               <li className="nav-item ui button resume-btn">
-                <a className="nav-link text-dark" href="https://drive.google.com/open?id=1aU53eBQkluL6VmeWTUY1s4IKdA2havmE">
-                  <p>RESUME</p>
+                <a className="nav-link text-light" href="https://drive.google.com/open?id=1aU53eBQkluL6VmeWTUY1s4IKdA2havmE">
+                  <p className="resume-btn-text">RESUME</p>
                 </a>
               </li>
             </ul>
