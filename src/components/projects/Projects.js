@@ -42,8 +42,10 @@ const Projects = () => (
       if (error) return `Error! ${error}`;
       console.log(data.repositoryOwner.pinnedRepositories.nodes);
       return (
+        <div>
+        <div id="scroll-projects"></div>
         <Heading title="PROJECTS" subtitle={subtitle} id="projects">
-          <section className="card-container">
+          <section className="project-card-container m-0 p-0">
             {data.repositoryOwner.pinnedRepositories.nodes.map((node, i) => (
               <ProjectCard
                 node={node}
@@ -53,6 +55,7 @@ const Projects = () => (
             ))}
           </section>
         </Heading>
+        </div>
       );
     }}
   </Query>

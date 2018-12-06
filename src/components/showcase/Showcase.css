@@ -1,16 +1,19 @@
 body, html {
   height: 100% !important;
-  margin: 0;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 #showcase {
-  height: 110vh;
-  background: transparent url('../../static/showcase_icon_v2.png') no-repeat;
+  height: 100vh;
+  background: transparent url('../../static/showcase_img.png') no-repeat;
   background-size: 100%;
   background-position: top;
+  margin-bottom: 10vh;
 }
 .content {
-  margin-top: 7rem;
+  margin: 7rem 0 0 0 !important;
 }
 .content h1 {
   font-size: 4rem;
@@ -32,4 +35,8 @@ body, html {
 .content button {
   background: #ffbb00 !important;
   padding: 1rem 5rem !important;
+}
+.col-lg-5 {
+  margin: 0 !important;
+  padding: 0% !important;
 }

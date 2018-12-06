@@ -8,22 +8,26 @@ class Showcase extends Component {
       <div id="showcase">
         <Navbar />
         <section>
-          <div className="row">
-            <div className="col-lg-5 ">
+          <div className="row m-0 p-0">
+            <div className="col-lg-5">
               <div className="content d-flex flex-column align-items-center">
                 <div>
-                <h1>
-                  HELLO,
-                  <br />I AM KIRAN.
-                </h1></div>
+                  <h1>
+                    HELLO,
+                    <br />I AM KIRAN.
+                  </h1>
+                </div>
                 <p>
                   I'm Glad that you visited my site where you get to know me and
                   my work.
                 </p>
-                <button className="btn big ui button mt-4"><a href="#" className="text-dark">Next</a></button>
+                <button className="btn big ui button mt-4">
+                  <a href="#" className="text-dark">
+                    Next
+                  </a>
+                </button>
               </div>
             </div>
-            <div className="col-lg-5" />
           </div>
         </section>
       </div>

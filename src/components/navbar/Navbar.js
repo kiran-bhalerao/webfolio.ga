@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Navbar.css";
+import animateScrollTo from "animated-scroll-to";
 
 class Navbar extends Component {
   render() {
@@ -7,7 +8,7 @@ class Navbar extends Component {
       <div>
         <nav className="navbar navbar-expand-md navbar-light bg-light">
           <a className="navbar-brand" href="#">
-            Webfolio.ga
+            IPortfolio.ga
           </a>
           <button
             className="navbar-toggler"
@@ -23,27 +24,29 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
-                <a className="nav-link" href="#">
+                <button
+                  className="nav-link ui button nav-btn"
+                  onClick={() =>animateScrollTo(document.querySelector('.navbar-expand-md'))}
+                >
                   Home
-                </a>
+                </button>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <button className="nav-link ui button nav-btn" 
+                onClick={() =>animateScrollTo(document.querySelector('#scroll-projects'))}
+                >
                   Projects
-                </a>
+                </button>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Skills
-                </a>
+                <button className="nav-link ui button nav-btn" 
+                onClick={() =>animateScrollTo(document.querySelector('#scroll-skills'))}
+                >
+                Skills
+                </button>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  About
-                </a>
-              </li>
-              <li className="nav-item btn big ui button">
-                <a className="nav-link text-dark" href="#">
+              <li className="nav-item ui button resume-btn">
+                <a className="nav-link text-dark" href="https://drive.google.com/open?id=1aU53eBQkluL6VmeWTUY1s4IKdA2havmE">
                   <p>RESUME</p>
                 </a>
               </li>

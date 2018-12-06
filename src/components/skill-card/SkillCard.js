@@ -15,7 +15,7 @@ class SkillCard extends Component {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aut
           soluta iure, saepe perferendis enim quidem veritatis
         </p>
-        <button>LEARN MORE</button>
+        <button className="ui button ">LEARN MORE</button>
       </div>
     );
   }

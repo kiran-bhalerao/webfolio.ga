@@ -11,12 +11,26 @@ a {
 .nav-item {
   padding: 0px 16px !important;
 }
-.button:hover {
+.resume-btn:hover {
   background: #ffbb00 !important;
 }
-.button {
+.resume-btn {
   background: #ffbb00 !important;
+  padding-top: 0.2rem !important;
+  padding-bottom: 0rem !important;
+  height: 2.8rem !important;
 }
 .nav-link p {
   font-size: 1rem;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.nav-btn {
+  color: #fff !important;
+  background: transparent !important;
+  border: 0px;
+  cursor: pointer;
+  font-size: 1.2rem !important;
+  font-weight: 400 !important;
+  font-family: Ubuntu, Helvetica, Arial, sans-serif;
 }
