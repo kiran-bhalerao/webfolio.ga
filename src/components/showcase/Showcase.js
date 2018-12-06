@@ -28,9 +28,7 @@ class Showcase extends Component {
                     animateScrollTo(document.querySelector("#scroll-projects"))
                   }
                 >
-                  <a href="#" className="text-dark">
-                    Next
-                  </a>
+                  <h3 className="text-light">Next</h3>
                 </button>
               </div>
             </div>

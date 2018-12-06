@@ -7,7 +7,7 @@ class Navbar extends Component {
     return (
       <div>
         <nav className="navbar navbar-expand-md navbar-dark bg-light">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="https://localhost:3000">
             IPortfolio.ga
           </a>
           <button

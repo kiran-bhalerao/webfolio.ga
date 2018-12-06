@@ -1,6 +1,6 @@
 #skills-section {
   /* height: 110vh; */
-  background: transparent url('../../static/middle.png') no-repeat;
+  background: transparent url('../../assets/middle.png') no-repeat;
   background-size: 100%;
   background-position: top;
   margin-top: 4rem;
@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 600px) {
   #skills-section {
-    background: transparent url("../../static/middle.png") no-repeat;
+    background: transparent url("../../assets/middle.png") no-repeat;
     background-size: auto;
   }
 }

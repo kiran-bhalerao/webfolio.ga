@@ -6,9 +6,9 @@ class SkillCard extends Component {
     return (
       <div className="skill-card-section d-flex flex-column align-items-center">
         <img
-          src={require("../../static/design_icon.png")}
+          src={require("../../assets/design_icon.png")}
           alt="design_icon"
-          width="120px"
+          height="120px"
           width="120px"
         />
         <p>

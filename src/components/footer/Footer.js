@@ -3,7 +3,7 @@ class Footer extends Component {
   render() {
     return (
       <div
-        className="d-flex flex-column align-items-center pt-5 pb-5 w-100"
+        className="d-flex flex-column align-items-center pt-4 pb-4 w-100"
         style={{ background: "#fff" }}
         id="footer"
       >
@@ -11,8 +11,8 @@ class Footer extends Component {
           <span className="text-danger">{"<3"}</span>{" "}
           <strong>Open Source</strong>
         </p>
-        <p>
-          Copyright © 2018 Created by <strong>Kiran Bhalerao</strong>.
+        <p className="text-center p-3">
+          Copyright © 2018 Designed and Developed by <strong>Kiran Bhalerao</strong>.
         </p>
       </div>
     );

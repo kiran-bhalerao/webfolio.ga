@@ -8,7 +8,7 @@ html {
 
 #showcase {
   height: 101vh;
-  background: transparent url("../../static/showcase_img.png") no-repeat;
+  background: transparent url("../../assets/showcase_img.png") no-repeat;
   background-size: 100%;
   background-position: top;
   margin-bottom: 10vh;
@@ -44,7 +44,7 @@ html {
 
 @media screen and (max-width: 600px) {
   #showcase {
-    /* background: transparent url("../../static/showcase_img.png") no-repeat; */
+    /* background: transparent url("../../assets/showcase_img.png") no-repeat; */
     background: linear-gradient(#380092, #ff7db3);
     background-size: unset;
     width: 101%;
